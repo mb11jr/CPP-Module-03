@@ -13,7 +13,7 @@ ScavTrap::~ScavTrap()
 	std::cout << "ScavTrap " << _name << " destroyed!" << std::endl;
 }
 
-void ScavTrap::attack(const std::string& target)
+void ScavTrap::attack(const std::string &target)
 {
 	if (_HP == 0 || _EP == 0) {
 		std::cout << "ScavTrap " << _name << " can't move!" << std::endl;
